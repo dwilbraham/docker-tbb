@@ -1,4 +1,4 @@
-FROM gcc
+FROM gcc:4
 
 ENV TBB_VERSION 44_20150728
 ENV TBB_DOWNLOAD_URL https://www.threadingbuildingblocks.org/sites/default/files/software_releases/linux/tbb${TBB_VERSION}oss_lin_0.tgz
