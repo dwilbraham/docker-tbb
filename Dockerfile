@@ -1,7 +1,7 @@
 FROM gcc
 
-ENV TBB_VERSION 44_20150728
-ENV TBB_DOWNLOAD_URL https://www.threadingbuildingblocks.org/sites/default/files/software_releases/linux/tbb${TBB_VERSION}oss_lin_0.tgz
+ENV TBB_VERSION 44_20160128
+ENV TBB_DOWNLOAD_URL https://www.threadingbuildingblocks.org/sites/default/files/software_releases/linux/tbb${TBB_VERSION}oss_lin.tgz
 ENV TBB_INSTALL_DIR /opt
 
 RUN wget ${TBB_DOWNLOAD_URL} \
